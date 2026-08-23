@@ -5,6 +5,8 @@
 Repository นี้ตั้งใจให้คนอื่น **fork/clone แล้วนำไปผูกกับ AI agent/runtime ของตัวเอง** จากนั้นปรับ `USER.md` และ `MEMORY.md` ให้เป็นของเจ้าของแต่ละคน
 
 > **สำคัญ:** การ clone repository อย่างเดียวไม่ได้ทำให้ ChatGPT, Claude, Codex หรือ AI runtime อื่นรู้จัก Rex โดยอัตโนมัติ ตัว runtime ต้องถูกตั้งค่าให้โหลดไฟล์ instruction เหล่านี้ และถ้าต้องการเรียก Rex ผ่านผู้ช่วยหลัก ก็ต้องมี routing (การส่งต่อ) ตามที่อธิบายด้านล่าง
+>
+> **คุณTop owner architecture:** เมื่อใช้งานใน Rex Project/เครื่องของคุณTop และพบ canonical `Agent-Team` Repo ให้ใช้ `/a <staff>`, `/p <project>`, `/s [project]` จาก Agent-Team ตาม bridge ใน `AGENTS.md`. ไม่ต้องสร้าง ChatGPT Project แยกต่อ code project และไม่ต้องติดตั้ง/คัดลอก Sara, Dex หรือ Staff อื่นเข้า repository นี้
 
 ## โครงสร้าง
 
