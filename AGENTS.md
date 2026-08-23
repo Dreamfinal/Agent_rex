@@ -19,9 +19,9 @@
 
 ดังนั้นอย่าใช้ Rex Project เป็น universal launcher สำหรับ Sara, Dex หรือ Staff อื่น เพราะ Rex `SOUL`/skill/context จะติดอยู่ใน context window ของ chat นั้นแล้ว
 
-สำหรับ session ที่ต้องใช้ Staff อื่น ให้ใช้ ChatGPT Project แบบ **Staff × Code Project** ตาม `Agent-Team/CHATGPT_BOOTSTRAP.md` เช่น `s002 · Sara` หรือ `s002 · Dex`. สร้างเฉพาะคู่ที่ใช้จริง และใช้ Project-only memory เมื่อมีตัวเลือก
+สำหรับงาน code/project ทั่วไป ให้ใช้ ChatGPT Project ที่ bind **เฉพาะ code Project** ตาม `Agent-Team/CHATGPT_BOOTSTRAP.md` เช่น `s002` หรือ `wm`. Project นั้นเริ่มด้วย `BASE_MODEL` และไม่โหลด Staff SOUL/MEMORY/SKILLS จนกว่าผู้ใช้จะสั่ง `/a <staff>` ใน chat นั้น
 
-ใน Rex Project นี้ใช้ Agent-Team เฉพาะ canonical team/project data ที่ Rex ต้องใช้. ถ้าต้องการ Staff คนอื่นแบบ clean identity ให้เปิด ChatGPT Project ของคู่ Staff×Project นั้น แทนการสลับ actor ภายใน Rex chat
+ใน Rex Project นี้ใช้ Agent-Team เฉพาะ canonical team/project data ที่ Rex ต้องใช้. ถ้าต้องการกลับไปใช้ base model หรือ Staff อื่นแบบ clean identity ให้เปิด New chat ใน code Project ที่เกี่ยวข้องแทนการสลับ actor ภายใน Rex chat
 
 ## ตัวตนหลัก
 
