@@ -6,7 +6,7 @@ Repository นี้ตั้งใจให้คนอื่น **fork/clone �
 
 > **สำคัญ:** การ clone repository อย่างเดียวไม่ได้ทำให้ ChatGPT, Claude, Codex หรือ AI runtime อื่นรู้จัก Rex โดยอัตโนมัติ ตัว runtime ต้องถูกตั้งค่าให้โหลดไฟล์ instruction เหล่านี้ และถ้าต้องการเรียก Rex ผ่านผู้ช่วยหลัก ก็ต้องมี routing (การส่งต่อ) ตามที่อธิบายด้านล่าง
 >
-> **คุณTop owner architecture:** เมื่อใช้งานใน Rex Project/เครื่องของคุณTop และพบ canonical `Agent-Team` Repo ให้ใช้ `/a <staff>`, `/p <project>`, `/s [project]` จาก Agent-Team ตาม bridge ใน `AGENTS.md`. ไม่ต้องสร้าง ChatGPT Project แยกต่อ code project และไม่ต้องติดตั้ง/คัดลอก Sara, Dex หรือ Staff อื่นเข้า repository นี้
+> **คุณTop owner architecture:** Rex Project เป็น Rex-only environment; Rex context ถูก preload ตั้งแต่เปิด chat. สำหรับ Sara/Dex/Staff อื่นให้ใช้ ChatGPT Project แบบ **Staff × Code Project** ตาม `Agent-Team/CHATGPT_BOOTSTRAP.md` (เช่น `s002 · Sara`, `s002 · Dex`) และสร้างเฉพาะคู่ที่ใช้จริง. ไม่ต้องติดตั้ง/คัดลอก Staff เข้า repository นี้
 
 ## โครงสร้าง
 
